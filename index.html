@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Unit Converter</title>
+  </head>
+  <body class="body">
+    <section class="top-section">
+      <div class="title">Metric/Imperial Unit Converter</div>
+      <input type="number" id="input-el" />
+      <button id="convert-btn">Convert</button>
+    </section>
+    <section class="bottom-section">
+      <div class="content-box">
+        <p class="convert-title">Length (Meter/Feet)</p>
+        <p class="result" id="length-el">
+          0 meters = 0 feet | 0 feet = 0 meters
+        </p>
+      </div>
+      <div class="content-box">
+        <p class="convert-title">Length (Meter/Feet)</p>
+        <p class="result" id="volume-el">
+          0 liters = 0 gallons | 0 gallons = 0 liters
+        </p>
+      </div>
+      <div class="content-box">
+        <p class="convert-title">Length (Meter/Feet)</p>
+        <p class="result" id="mass-el">
+          0 kilos = 0 pounds | 0 pounds = 0 kilos
+        </p>
+      </div>
+    </section>
+    <script src="index.js"></script>
+  </body>
+</html>
